@@ -1,11 +1,9 @@
-# SixLabers.Core
+# SixLabors.Core
 
 **SixLabors.Core** provides classes for use across SixLabors libraries.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/j1hvc99493b0jk3x/branch/develop?svg=true)](https://ci.appveyor.com/project/six-labors/core/branch/develop)
-[![codecov](https://codecov.io/gh/SixLabors/Core/branch/develop/graph/badge.svg)](https://codecov.io/gh/SixLabors/Core)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/SixLabors/Core/master/LICENSE)
+### Packages
 
-[![GitHub issues](https://img.shields.io/github/issues/SixLabors/Core.svg)](https://github.com/SixLabors/Core/issues)
-[![GitHub stars](https://img.shields.io/github/stars/SixLabors/Core.svg)](https://github.com/SixLabors/Core/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/SixLabors/Core.svg)](https://github.com/SixLabors/Core/network)
+|         Name       | Release (NuGet) | Build Status | License | Chat |
+|--------------------|-----------------|--------------|---------|------|
+| `SixLabors.Core`   | [![Download](https://img.shields.io/myget/imagesharp-latency/v/SixLabors.Core.svg)](https://www.myget.org/F/imagesharp-latency/api/v2/package/SixLabors.Core/1.0.1) | [![imagesharp-latency MyGet Build Status](https://www.myget.org/BuildSource/Badge/imagesharp-latency?identifier=949db081-6409-454c-ae7b-da8c530e2f2f)](https://www.myget.org/) | [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/Latency/ImageSharp.Core/master/LICENSE) | [![Chat](https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667)](https://gitter.im/ImageSharp/General?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge) |

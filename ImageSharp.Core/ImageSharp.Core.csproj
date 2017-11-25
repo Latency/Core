@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Low level primitives for use across Six Labors projects..</Description>
+    <Authors>Six Labors</Authors>
+    <TargetFrameworks>net471;netstandard1.1;netstandard1.3;netstandard1.6;netstandard2.0;netcoreapp2.0;net45</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>SixLabors.Core</PackageId>
+    <PackageTags>rectangle point size primitives</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/SixLabors/Home/master/logo.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Latency/ImageSharp.Core</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <RepositoryUrl>https://github.com/Latency/ImageSharp.Core</RepositoryUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>SixLabors.Core</AssemblyName>
+    <RootNamespace>SixLabors.Core</RootNamespace>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Platforms>AnyCPU</Platforms>
+    <Configurations>Release;Debug</Configurations>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+	<ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.1' OR '$(TargetFramework)' == 'netstandard1.3' OR '$(TargetFramework)' == 'netstandard1.6' OR '$(TargetFramework)' == 'net45' OR '$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netcoreapp2.0' ">
+    <PackageReference Include="System.Numerics.Vectors" Version="4.4.0" />
+  </ItemGroup>	
+</Project>
